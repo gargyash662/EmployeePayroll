@@ -14,14 +14,14 @@ class SplashViewController: UIViewController {
         
     {
         super.viewDidLoad()
-        perform(#selector(self.goToLoginScreen), with: nil, afterDelay: 5)
+        perform(#selector(self.goToLoginScreen), with: nil, afterDelay: 3)
         
     }
     
     @objc func goToLoginScreen()
         
     {
-        performSegue(withIdentifier: "showLoginScreen", sender: self)
+        performSegue(withIdentifier: "LogInScreenVC", sender: self)
         
     }
     

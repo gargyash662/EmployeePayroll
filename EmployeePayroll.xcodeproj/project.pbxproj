@@ -15,7 +15,7 @@
 		9B7C9281211CD71200B9FE3C /* homemade-sauerkraut-cost-savings-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C9280211CD71200B9FE3C /* homemade-sauerkraut-cost-savings-1.jpg */; };
 		9B7C9283211CDA2500B9FE3C /* Man_36749.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C9282211CDA2500B9FE3C /* Man_36749.png */; };
 		9B828DD621222711008434C0 /* LogInScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B828DD521222711008434C0 /* LogInScreenViewController.swift */; };
-		9B828DD8212229B1008434C0 /* EmployeeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B828DD7212229B1008434C0 /* EmployeeDetailsViewController.swift */; };
+		9B828DD8212229B1008434C0 /* EmployeesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B828DD7212229B1008434C0 /* EmployeesDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		9B7C9280211CD71200B9FE3C /* homemade-sauerkraut-cost-savings-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "homemade-sauerkraut-cost-savings-1.jpg"; sourceTree = "<group>"; };
 		9B7C9282211CDA2500B9FE3C /* Man_36749.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Man_36749.png; sourceTree = "<group>"; };
 		9B828DD521222711008434C0 /* LogInScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreenViewController.swift; sourceTree = "<group>"; };
-		9B828DD7212229B1008434C0 /* EmployeeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsViewController.swift; sourceTree = "<group>"; };
+		9B828DD7212229B1008434C0 /* EmployeesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 				9B7C9280211CD71200B9FE3C /* homemade-sauerkraut-cost-savings-1.jpg */,
 				9B7C9282211CDA2500B9FE3C /* Man_36749.png */,
 				9B828DD521222711008434C0 /* LogInScreenViewController.swift */,
-				9B828DD7212229B1008434C0 /* EmployeeDetailsViewController.swift */,
+				9B828DD7212229B1008434C0 /* EmployeesDetailsViewController.swift */,
 			);
 			path = EmployeePayroll;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 				9B828DD621222711008434C0 /* LogInScreenViewController.swift in Sources */,
 				9B7C9271211CD66500B9FE3C /* SplashViewController.swift in Sources */,
 				9B7C926F211CD66500B9FE3C /* AppDelegate.swift in Sources */,
-				9B828DD8212229B1008434C0 /* EmployeeDetailsViewController.swift in Sources */,
+				9B828DD8212229B1008434C0 /* EmployeesDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
