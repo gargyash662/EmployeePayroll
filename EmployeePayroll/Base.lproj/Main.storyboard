@@ -141,18 +141,18 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tEn-3b-zRY">
-                                <rect key="frame" x="16" y="269" width="49" height="31"/>
+                                <rect key="frame" x="16" y="283" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Has Vehicle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFz-wo-bjk">
-                                <rect key="frame" x="78" y="279" width="118" height="21"/>
+                                <rect key="frame" x="78" y="288" width="118" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="a27-07-y9z">
-                                <rect key="frame" x="16" y="342" width="343" height="29"/>
+                                <rect key="frame" x="16" y="344" width="343" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="CAR"/>
@@ -163,29 +163,29 @@
                                     <action selector="vehicle:" destination="xj6-gd-mha" eventType="valueChanged" id="JT3-uv-bXW"/>
                                 </connections>
                             </segmentedControl>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pbp-cF-JOA">
-                                <rect key="frame" x="184" y="391" width="97" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Make" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pbp-cF-JOA">
+                                <rect key="frame" x="25" y="394" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZE7-3O-T4J">
-                                <rect key="frame" x="184" y="429" width="97" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Plate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZE7-3O-T4J">
+                                <rect key="frame" x="139" y="394" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WgR-uW-0nk">
-                                <rect key="frame" x="184" y="467" width="97" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Colour" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WgR-uW-0nk">
+                                <rect key="frame" x="250" y="394" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ghp-8L-KHp">
-                                <rect key="frame" x="0.0" y="503" width="354" height="29"/>
+                                <rect key="frame" x="10" y="452" width="354" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Full Time"/>
@@ -196,36 +196,8 @@
                                     <action selector="segmenttypeofemployee:" destination="xj6-gd-mha" eventType="valueChanged" id="KOu-ZS-qtf"/>
                                 </connections>
                             </segmentedControl>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JCM-8h-9TL">
-                                <rect key="frame" x="22" y="293" width="330" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Rate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4S-te-fLl">
-                                        <rect key="frame" x="8" y="8" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Commision" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dmz-xr-aJg">
-                                        <rect key="frame" x="126" y="63" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hours Worked" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AnU-st-MkU">
-                                        <rect key="frame" x="191" y="8" width="131" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.95166565717948315" blue="0.14946889453085677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ily-eD-mzi">
-                                <rect key="frame" x="14" y="76" width="337" height="69"/>
+                                <rect key="frame" x="0.0" y="90" width="375" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Salary" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zz1-o2-RbV">
@@ -245,52 +217,38 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.31841999422796652" green="1" blue="0.29416615016856607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ql0-2D-1mr">
-                                <rect key="frame" x="8" y="591" width="341" height="76"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pmf-IZ-mwg">
+                                <rect key="frame" x="0.0" y="520" width="375" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Rate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rJg-aw-ybi">
-                                        <rect key="frame" x="0.0" y="8" width="97" height="30"/>
+                                        <rect key="frame" x="8" y="67" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hours Worked" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h5U-3a-MzB">
-                                        <rect key="frame" x="193" y="8" width="137" height="30"/>
+                                        <rect key="frame" x="137" y="67" width="137" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fixed Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nTv-Hb-hhM">
-                                        <rect key="frame" x="117" y="78" width="129" height="30"/>
+                                        <rect key="frame" x="8" y="105" width="129" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.55741406355429335" blue="0.054075220406912816" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGS-0R-QWX">
-                                <rect key="frame" x="16" y="157" width="303" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="School Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yGA-Sb-3mO">
-                                        <rect key="frame" x="125" y="27" width="151" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Commison" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9UQ-x4-DkV">
+                                        <rect key="frame" x="168" y="105" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.24586590339173831" blue="0.30356365804883489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pmf-IZ-mwg">
-                                <rect key="frame" x="13" y="381" width="346" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fPJ-zn-E3n">
                                         <rect key="frame" x="20" y="31" width="308" height="29"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -303,7 +261,7 @@
                                         </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select Type Of Part Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7RV-xR-fNn">
-                                        <rect key="frame" x="20" y="0.0" width="245" height="21"/>
+                                        <rect key="frame" x="20" y="8" width="245" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -311,6 +269,25 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.47767861053240634" green="0.18970744084957392" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJq-rR-kGi">
+                                <rect key="frame" x="224" y="284" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGS-0R-QWX">
+                                <rect key="frame" x="0.0" y="161" width="375" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="School Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yGA-Sb-3mO">
+                                        <rect key="frame" x="125" y="27" width="151" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.24586590339173831" blue="0.30356365804883489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.81953046132975671" green="1" blue="0.9718530833742739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -320,12 +297,16 @@
                         <outlet property="FullTimeEmployee" destination="ily-eD-mzi" id="KtQ-wN-tiN"/>
                         <outlet property="InternView" destination="eGS-0R-QWX" id="1F0-xd-ObJ"/>
                         <outlet property="PartTimeview" destination="pmf-IZ-mwg" id="Zrk-ws-VSF"/>
-                        <outlet property="commisionedview" destination="JCM-8h-9TL" id="Et3-Yu-wAc"/>
-                        <outlet property="fixedbasedview" destination="ql0-2D-1mr" id="FdU-ds-omI"/>
+                        <outlet property="commisionpartimetxt" destination="9UQ-x4-DkV" id="Sp8-Ka-igK"/>
+                        <outlet property="fixedamountpartimetxt" destination="nTv-Hb-hhM" id="VuF-hg-sCo"/>
+                        <outlet property="hoursworkedpartimetxt" destination="h5U-3a-MzB" id="Y1e-DW-wTj"/>
+                        <outlet property="rateparttimetxt" destination="rJg-aw-ybi" id="pM7-Nz-bLx"/>
                         <outlet property="txtage" destination="TuW-aZ-h2L" id="Ex4-cD-TDs"/>
                         <outlet property="txtempname" destination="ZBz-pE-0mK" id="zUD-N6-4Wm"/>
                         <outlet property="txtid" destination="Icf-j5-60d" id="E4N-tk-jEy"/>
                         <outlet property="typeofemployee" destination="Ghp-8L-KHp" id="kzx-7x-WyZ"/>
+                        <outlet property="typeofpARTTIMESEGMENT" destination="fPJ-zn-E3n" id="TbZ-Gr-EA4"/>
+                        <outlet property="typeofparttime" destination="fPJ-zn-E3n" id="cB2-N8-xbb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yw7-C6-OL9" userLabel="First Responder" sceneMemberID="firstResponder"/>

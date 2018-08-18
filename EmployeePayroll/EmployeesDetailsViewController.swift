@@ -9,10 +9,10 @@
 import UIKit
 
 class EmployeesDetailsViewController: UIViewController {
+    @IBOutlet weak var typeofparttime: UISegmentedControl!
     @IBOutlet weak var txtid: UITextField!
     @IBOutlet weak var txtempname: UITextField!
     @IBOutlet weak var txtage: UITextField!
-    
     @IBOutlet weak var typeofemployee: UISegmentedControl!
     @IBOutlet weak var fixedbasedview: UIView!
     @IBOutlet weak var commisionedview: UIView!
@@ -20,6 +20,12 @@ class EmployeesDetailsViewController: UIViewController {
     @IBOutlet weak var InternView: UIView!
     @IBOutlet weak var FullTimeEmployee: UIView!
     @IBOutlet weak var tablevehicle: UITableViewCell!
+    @IBOutlet weak var typeofpARTTIMESEGMENT: UISegmentedControl!
+    
+    @IBOutlet weak var commisionpartimetxt: UITextField!
+    @IBOutlet weak var fixedamountpartimetxt: UITextField!
+    @IBOutlet weak var hoursworkedpartimetxt: UITextField!
+    @IBOutlet weak var rateparttimetxt: UITextField!
     
     override func viewDidLoad()
     {
@@ -29,7 +35,7 @@ class EmployeesDetailsViewController: UIViewController {
 
     
     @IBAction func segmenttypeparttime(_ sender: Any) {
-        
+        typeofpartime()
     }
     @IBAction func segmenttypeofemployee(_ sender: Any) {
         employeetype()
@@ -42,8 +48,8 @@ class EmployeesDetailsViewController: UIViewController {
         FullTimeEmployee.isHidden = true
         InternView.isHidden = true
         PartTimeview.isHidden = true
-        commisionedview.isHidden = true
-        fixedbasedview.isHidden = true
+        
+        
         let various  = typeofemployee.selectedSegmentIndex
         switch various {
         case 0:
@@ -59,9 +65,25 @@ class EmployeesDetailsViewController: UIViewController {
         default:
             print("check entry")
         }
-        
+        typeofpartime()
     }
-    
+    private func typeofpartime() {
+        
+        if !PartTimeview.isHidden {
+            commisionpartimetxt.isHidden = true
+            fixedamountpartimetxt.isHidden = true
+            let parttimetype = typeofpARTTIMESEGMENT.selectedSegmentIndex
+            if parttimetype  == 0
+            {
+                fixedamountpartimetxt.isHidden = false
+            }
+            else
+            {
+                commisionpartimetxt.isHidden = false
+            }
+            
+        }
+    }
     
     
     
