@@ -9,90 +9,54 @@
 import UIKit
 
 class EmployeesDetailsViewController: UIViewController {
-    @IBOutlet weak var typeofparttime: UISegmentedControl!
+    
+    @IBOutlet weak var typeofemployee: UISegmentedControl!
     @IBOutlet weak var txtid: UITextField!
     @IBOutlet weak var txtempname: UITextField!
     @IBOutlet weak var txtage: UITextField!
-    @IBOutlet weak var typeofemployee: UISegmentedControl!
-    @IBOutlet weak var fixedbasedview: UIView!
-    @IBOutlet weak var commisionedview: UIView!
-    @IBOutlet weak var PartTimeview: UIView!
-    @IBOutlet weak var InternView: UIView!
-    @IBOutlet weak var FullTimeEmployee: UIView!
-    @IBOutlet weak var tablevehicle: UITableViewCell!
-    @IBOutlet weak var typeofpARTTIMESEGMENT: UISegmentedControl!
     
-    @IBOutlet weak var commisionpartimetxt: UITextField!
-    @IBOutlet weak var fixedamountpartimetxt: UITextField!
-    @IBOutlet weak var hoursworkedpartimetxt: UITextField!
-    @IBOutlet weak var rateparttimetxt: UITextField!
     
+    
+    
+    @IBOutlet weak var viewControl: UIView!
+    var view1: UIView!
+    var view2: UIView!
+    var view3: UIView!
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        employeetype()
+        view1 = FullTimeViewController().view
+        view3 = PartTimevc().view
+        view2 = Internvc().view
+        viewControl.addSubview(view1)
+        viewControl.addSubview(view2)
+        viewControl.addSubview(view3)
     }
 
     
-    @IBAction func segmenttypeparttime(_ sender: Any) {
-        typeofpartime()
-    }
-    @IBAction func segmenttypeofemployee(_ sender: Any) {
-        employeetype()
-    }
+   
     
     
     
-    private func employeetype()
-    {
-        FullTimeEmployee.isHidden = true
-        InternView.isHidden = true
-        PartTimeview.isHidden = true
-        
-        
-        let various  = typeofemployee.selectedSegmentIndex
-        switch various {
+    
+    
+    
+    @IBAction func segment_view(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
         case 0:
-            FullTimeEmployee.isHidden = false
-           
+            viewControl.bringSubview(toFront: view1)
+            break
         case 1:
-           
-            InternView.isHidden = false
-            
+            viewControl.bringSubview(toFront: view2)
+            break
         case 2:
-           
-            PartTimeview.isHidden = false
+            viewControl.bringSubview(toFront: view3)
+            break
         default:
-            print("check entry")
-        }
-        typeofpartime()
-    }
-    private func typeofpartime() {
-        
-        if !PartTimeview.isHidden {
-            commisionpartimetxt.isHidden = true
-            fixedamountpartimetxt.isHidden = true
-            let parttimetype = typeofpARTTIMESEGMENT.selectedSegmentIndex
-            if parttimetype  == 0
-            {
-                fixedamountpartimetxt.isHidden = false
-            }
-            else
-            {
-                commisionpartimetxt.isHidden = false
-            }
-            
+            break
         }
     }
     
-    
-    
-    
-    
-    
-    
-    @IBAction func vehicle(_ sender: UISegmentedControl) {
-    }
     
     override func didReceiveMemoryWarning()
     {

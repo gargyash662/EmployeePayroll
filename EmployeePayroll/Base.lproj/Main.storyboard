@@ -193,120 +193,29 @@
                                     <segment title="PartTime"/>
                                 </segments>
                                 <connections>
-                                    <action selector="segmenttypeofemployee:" destination="xj6-gd-mha" eventType="valueChanged" id="KOu-ZS-qtf"/>
+                                    <action selector="segment_view:" destination="xj6-gd-mha" eventType="valueChanged" id="OrZ-o4-MHr"/>
                                 </connections>
                             </segmentedControl>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ily-eD-mzi">
-                                <rect key="frame" x="0.0" y="90" width="375" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Salary" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zz1-o2-RbV">
-                                        <rect key="frame" x="18" y="8" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Bonus" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Y1-ij-fsu">
-                                        <rect key="frame" x="18" y="49" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                </subviews>
-                                <color key="backgroundColor" red="0.31841999422796652" green="1" blue="0.29416615016856607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pmf-IZ-mwg">
-                                <rect key="frame" x="0.0" y="520" width="375" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Rate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rJg-aw-ybi">
-                                        <rect key="frame" x="8" y="67" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hours Worked" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h5U-3a-MzB">
-                                        <rect key="frame" x="137" y="67" width="137" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fixed Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nTv-Hb-hhM">
-                                        <rect key="frame" x="8" y="105" width="129" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Commison" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9UQ-x4-DkV">
-                                        <rect key="frame" x="168" y="105" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fPJ-zn-E3n">
-                                        <rect key="frame" x="20" y="31" width="308" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <segments>
-                                            <segment title="Fixed Based"/>
-                                            <segment title="Commisioned Based"/>
-                                        </segments>
-                                        <connections>
-                                            <action selector="segmenttypeparttime:" destination="xj6-gd-mha" eventType="valueChanged" id="ht8-bn-b7h"/>
-                                        </connections>
-                                    </segmentedControl>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select Type Of Part Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7RV-xR-fNn">
-                                        <rect key="frame" x="20" y="8" width="245" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.47767861053240634" green="0.18970744084957392" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJq-rR-kGi">
                                 <rect key="frame" x="224" y="284" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGS-0R-QWX">
-                                <rect key="frame" x="0.0" y="161" width="375" height="114"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vtu-pN-clB">
+                                <rect key="frame" x="10" y="488" width="365" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="School Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yGA-Sb-3mO">
-                                        <rect key="frame" x="125" y="27" width="151" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.24586590339173831" blue="0.30356365804883489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.81953046132975671" green="1" blue="0.9718530833742739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="yFD-v7-Fic"/>
                     </view>
                     <connections>
-                        <outlet property="FullTimeEmployee" destination="ily-eD-mzi" id="KtQ-wN-tiN"/>
-                        <outlet property="InternView" destination="eGS-0R-QWX" id="1F0-xd-ObJ"/>
-                        <outlet property="PartTimeview" destination="pmf-IZ-mwg" id="Zrk-ws-VSF"/>
-                        <outlet property="commisionpartimetxt" destination="9UQ-x4-DkV" id="Sp8-Ka-igK"/>
-                        <outlet property="fixedamountpartimetxt" destination="nTv-Hb-hhM" id="VuF-hg-sCo"/>
-                        <outlet property="hoursworkedpartimetxt" destination="h5U-3a-MzB" id="Y1e-DW-wTj"/>
-                        <outlet property="rateparttimetxt" destination="rJg-aw-ybi" id="pM7-Nz-bLx"/>
                         <outlet property="txtage" destination="TuW-aZ-h2L" id="Ex4-cD-TDs"/>
                         <outlet property="txtempname" destination="ZBz-pE-0mK" id="zUD-N6-4Wm"/>
                         <outlet property="txtid" destination="Icf-j5-60d" id="E4N-tk-jEy"/>
-                        <outlet property="typeofemployee" destination="Ghp-8L-KHp" id="kzx-7x-WyZ"/>
-                        <outlet property="typeofpARTTIMESEGMENT" destination="fPJ-zn-E3n" id="TbZ-Gr-EA4"/>
-                        <outlet property="typeofparttime" destination="fPJ-zn-E3n" id="cB2-N8-xbb"/>
+                        <outlet property="typeofemployee" destination="Ghp-8L-KHp" id="jEJ-KQ-QOc"/>
+                        <outlet property="viewControl" destination="Vtu-pN-clB" id="qRg-i2-dGW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yw7-C6-OL9" userLabel="First Responder" sceneMemberID="firstResponder"/>

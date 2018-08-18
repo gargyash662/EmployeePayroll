@@ -16,6 +16,16 @@
 		9B7C9283211CDA2500B9FE3C /* Man_36749.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C9282211CDA2500B9FE3C /* Man_36749.png */; };
 		9B828DD621222711008434C0 /* LogInScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B828DD521222711008434C0 /* LogInScreenViewController.swift */; };
 		9B828DD8212229B1008434C0 /* EmployeesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B828DD7212229B1008434C0 /* EmployeesDetailsViewController.swift */; };
+		D38DF0422127A08A00332B10 /* FullTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38DF0402127A08A00332B10 /* FullTimeViewController.swift */; };
+		D38DF0432127A08A00332B10 /* FullTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38DF0412127A08A00332B10 /* FullTimeViewController.xib */; };
+		D38DF0462127A0A400332B10 /* PartTimevc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38DF0442127A0A400332B10 /* PartTimevc.swift */; };
+		D38DF0472127A0A400332B10 /* PartTimevc.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38DF0452127A0A400332B10 /* PartTimevc.xib */; };
+		D38DF04A2127A0C000332B10 /* Internvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38DF0482127A0C000332B10 /* Internvc.swift */; };
+		D38DF04B2127A0C000332B10 /* Internvc.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38DF0492127A0C000332B10 /* Internvc.xib */; };
+		D38DF0562127AD8700332B10 /* commissionvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38DF0542127AD8700332B10 /* commissionvc.swift */; };
+		D38DF0572127AD8700332B10 /* commissionvc.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38DF0552127AD8700332B10 /* commissionvc.xib */; };
+		D38DF05A2127ADA600332B10 /* fixedvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38DF0582127ADA600332B10 /* fixedvc.swift */; };
+		D38DF05B2127ADA600332B10 /* fixedvc.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38DF0592127ADA600332B10 /* fixedvc.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +40,16 @@
 		9B7C9282211CDA2500B9FE3C /* Man_36749.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Man_36749.png; sourceTree = "<group>"; };
 		9B828DD521222711008434C0 /* LogInScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreenViewController.swift; sourceTree = "<group>"; };
 		9B828DD7212229B1008434C0 /* EmployeesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesDetailsViewController.swift; sourceTree = "<group>"; };
+		D38DF0402127A08A00332B10 /* FullTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTimeViewController.swift; sourceTree = "<group>"; };
+		D38DF0412127A08A00332B10 /* FullTimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FullTimeViewController.xib; sourceTree = "<group>"; };
+		D38DF0442127A0A400332B10 /* PartTimevc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTimevc.swift; sourceTree = "<group>"; };
+		D38DF0452127A0A400332B10 /* PartTimevc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PartTimevc.xib; sourceTree = "<group>"; };
+		D38DF0482127A0C000332B10 /* Internvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internvc.swift; sourceTree = "<group>"; };
+		D38DF0492127A0C000332B10 /* Internvc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Internvc.xib; sourceTree = "<group>"; };
+		D38DF0542127AD8700332B10 /* commissionvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commissionvc.swift; sourceTree = "<group>"; };
+		D38DF0552127AD8700332B10 /* commissionvc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = commissionvc.xib; sourceTree = "<group>"; };
+		D38DF0582127ADA600332B10 /* fixedvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fixedvc.swift; sourceTree = "<group>"; };
+		D38DF0592127ADA600332B10 /* fixedvc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fixedvc.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +82,7 @@
 		9B7C926D211CD66500B9FE3C /* EmployeePayroll */ = {
 			isa = PBXGroup;
 			children = (
+				D38DF03F2127A05A00332B10 /* SegmentControl */,
 				9B7C926E211CD66500B9FE3C /* AppDelegate.swift */,
 				9B7C9270211CD66500B9FE3C /* SplashViewController.swift */,
 				9B7C9272211CD66500B9FE3C /* Main.storyboard */,
@@ -74,6 +95,23 @@
 				9B828DD7212229B1008434C0 /* EmployeesDetailsViewController.swift */,
 			);
 			path = EmployeePayroll;
+			sourceTree = "<group>";
+		};
+		D38DF03F2127A05A00332B10 /* SegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				D38DF0402127A08A00332B10 /* FullTimeViewController.swift */,
+				D38DF0412127A08A00332B10 /* FullTimeViewController.xib */,
+				D38DF0442127A0A400332B10 /* PartTimevc.swift */,
+				D38DF0452127A0A400332B10 /* PartTimevc.xib */,
+				D38DF0482127A0C000332B10 /* Internvc.swift */,
+				D38DF0492127A0C000332B10 /* Internvc.xib */,
+				D38DF0542127AD8700332B10 /* commissionvc.swift */,
+				D38DF0552127AD8700332B10 /* commissionvc.xib */,
+				D38DF0582127ADA600332B10 /* fixedvc.swift */,
+				D38DF0592127ADA600332B10 /* fixedvc.xib */,
+			);
+			path = SegmentControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +174,13 @@
 			files = (
 				9B7C9279211CD66900B9FE3C /* LaunchScreen.storyboard in Resources */,
 				9B7C9281211CD71200B9FE3C /* homemade-sauerkraut-cost-savings-1.jpg in Resources */,
+				D38DF0572127AD8700332B10 /* commissionvc.xib in Resources */,
+				D38DF0432127A08A00332B10 /* FullTimeViewController.xib in Resources */,
 				9B7C9283211CDA2500B9FE3C /* Man_36749.png in Resources */,
 				9B7C9276211CD66900B9FE3C /* Assets.xcassets in Resources */,
+				D38DF0472127A0A400332B10 /* PartTimevc.xib in Resources */,
+				D38DF05B2127ADA600332B10 /* fixedvc.xib in Resources */,
+				D38DF04B2127A0C000332B10 /* Internvc.xib in Resources */,
 				9B7C9274211CD66500B9FE3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,10 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38DF04A2127A0C000332B10 /* Internvc.swift in Sources */,
 				9B828DD621222711008434C0 /* LogInScreenViewController.swift in Sources */,
 				9B7C9271211CD66500B9FE3C /* SplashViewController.swift in Sources */,
+				D38DF0422127A08A00332B10 /* FullTimeViewController.swift in Sources */,
 				9B7C926F211CD66500B9FE3C /* AppDelegate.swift in Sources */,
+				D38DF0462127A0A400332B10 /* PartTimevc.swift in Sources */,
+				D38DF05A2127ADA600332B10 /* fixedvc.swift in Sources */,
 				9B828DD8212229B1008434C0 /* EmployeesDetailsViewController.swift in Sources */,
+				D38DF0562127AD8700332B10 /* commissionvc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
